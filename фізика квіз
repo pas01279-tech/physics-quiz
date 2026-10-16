@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя інтерактивна активність</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+        h1 { color: #0056b3; }
+        .btn {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .btn:hover { background-color: #218838; }
+    </style>
+</head>
+<body>
+    <h1>Вітаю на моєму вебсайті!</h1>
+    <p>Цю сторінку створено безпосередньо на GitHub Pages.</p>
+    <button class="btn" onclick="alert('Усе працює чудово!')">Натисни мене</button>
+</body>
+</html>
